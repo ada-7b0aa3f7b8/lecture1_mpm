@@ -8,5 +8,9 @@ def print_new_wrapper(x: int) -> None:
 def increment_x(x: int, value: int) -> int:
     return x + value
 
-print_new_wrapper(2)
+def increment_x(x: int, value: int) -> int:
+    return x + value
+
+
+
 print_wrapper(1)
