@@ -1,5 +1,4 @@
-def print_wrapper(x: int) -> None:
-    print(x)
+def print_new_wrapper(x: int) -> None:
+    print(2*x)
 
-
-print_wrapper(1)
+print_new_wrapper(2)
